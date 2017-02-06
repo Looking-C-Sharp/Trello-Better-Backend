@@ -10,6 +10,9 @@ namespace Sticky_Backend
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to the Sticky backend!");
+            Console.Write("Press any key to continue . . . ");
+            Console.ReadKey();
         }
     }
 }
