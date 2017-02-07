@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sticky_Backend.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,15 @@ namespace Sticky_Backend
         {
             Console.Title = "Sticky Backend Server";
             Console.WriteLine("Welcome to the Sticky backend!");
+            doSomething();
             Console.Write("Press any key to continue . . . ");
             Console.ReadKey();
+        }
+
+        private static void doSomething()
+        {
+            StickyController c = new StickyController();
+            Console.WriteLine("Here's the result of a DB query: " + c.first());
         }
     }
 }
