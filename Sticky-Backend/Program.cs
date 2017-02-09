@@ -21,7 +21,8 @@ namespace Sticky_Backend
         private static void doSomething()
         {
             StickyController c = new StickyController();
-            Console.WriteLine("Here's the result of a DB query: " + c.first());
+            
+            Console.WriteLine("Here's the result of a DB query: " + c.mutateList());
         }
     }
 }

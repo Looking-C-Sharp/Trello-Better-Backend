@@ -12,9 +12,15 @@ namespace Sticky_Backend.Controllers
     {
         private StickyContext db = new StickyContext();
 
-        public string first()
+        public string mutateList()
         {
-            return db.Lists.First<List>().title;
+            
+            User u = new User();
+            u.name = "Bob";
+            u.username = "bob" + DateTime.Now.Ticks;
+            db.Users.Add(u);
+            db.SaveChanges();
+            return db.Users.First().name;
         }
     }
 }

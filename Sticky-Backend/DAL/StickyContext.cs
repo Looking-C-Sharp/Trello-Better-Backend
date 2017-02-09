@@ -15,7 +15,9 @@ namespace Sticky_Backend.DAL
         {
         }
 
-        public DbSet<List> Lists { get; set; }
+        public DbSet<Group> Groups { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<PrivateChat> PrivateChats { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

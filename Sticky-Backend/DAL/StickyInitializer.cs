@@ -17,7 +17,7 @@ namespace Sticky_Backend.DAL
                 new List{title="List 2"}
             };
 
-            lists.ForEach(s => context.Lists.Add(s));
+            //lists.ForEach(s => context.Lists.Add(s));
             context.SaveChanges();
         }
     }
