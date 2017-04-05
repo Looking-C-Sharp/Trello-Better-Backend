@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sticky_Backend.Models
 {
-    class Emoji
+    public class Emoji
     {
         public int ID { get; set; }
         public User author { get; set; }

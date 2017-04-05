@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Sticky_Backend.Models
 {
-    class User
+    public class User
     {
         [Key]
         public string username { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sticky_Backend.Models
 {
-    class PrivateChat
+    public class PrivateChat
     {
         public int ID { get; set; }
         public List<User> members { get; set; }

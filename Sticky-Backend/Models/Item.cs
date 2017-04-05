@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sticky_Backend.Models
 {
-    class Item
+    public class Item
     {
         public int ID { get; set; }
         public string title { get; set; }
