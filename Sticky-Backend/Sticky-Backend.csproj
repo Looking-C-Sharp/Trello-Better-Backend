@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\StickyController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="DAL\StickyContext.cs" />
     <Compile Include="DAL\StickyInitializer.cs" />
     <Compile Include="Models\Comment.cs" />
